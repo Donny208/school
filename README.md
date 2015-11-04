@@ -12,5 +12,7 @@
 
 <h1>Web Design Folders</h1>
 <ul>
-  <li><a href="" target="_blank"></a></li>
+  <li><a href="" target="_blank">First Website</a></li>
+  <li><a href="" target="_blank">October Website</a></li>
+  <li><a href="" target="_blank">November Website</a></li>
 </ul>

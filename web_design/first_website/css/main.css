@@ -1,1 +1,163 @@
+*{
+	/*font-family: Stealingkissesinthemoonlight !important;*/
+	font-family: WRS !important;
+}
+
+body {
+	background: url('http://www.eveboo.com/wp-content/uploads/2013/04/space-background-images-hd-1080p-wallpapers-download.jpg') center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#header {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	height: 80px;
+	width: 100%;
+	background-color: white;
+	opacity: 0.7;
+	border-bottom: 3px solid black;
+}
+
+.heading {
+	font-family: Impact;
+	text-align: center;
+	font-size: 35px;
+	text-shadow: 1px 2px 7px #000000;
+}
+
+.bodytext {
+	color: black;
+	font-family: Arial;
+	text-align: center;
+	list-style-position: inside;
+}
+
+.returnlink {
+	text-decoration: none;
+	color: black;
+}
+
+#mainpagelist {
+	list-style-position: inside;
+	text-align: center;
+}
+
+.listspace {
+	margin: 0px 0px 15px 0px;
+}
+
+#introdiv {
+	height: 42px;
+	width: 40%;
+	background-color: white;
+	opacity: 0.6;
+	border-radius: 0px 100px 0px 100px;
+	-webkit-border-radius: 0px 100px 0px 100px;
+	-moz-border-radius: 0px 100px 0px 100px;
+	border: 1px solid black;
+	margin: auto;
+}
+
+#bodydiv {
+	height: auto;
+	width: 75%;
+	position: relative;
+	top: 25px;
+	background-color: white;
+	opacity: 0.6;
+	border-radius: 100px;
+	border: 1px solid black;
+	margin: auto;
+	padding: 10px
+}
+
+.spin
+{
+-moz-transition: transform 1s ease-in-out;
+-webkit-transition: transform 1s ease-in-out;
+-o-transition: transform 1s ease-in-out;
+transition: transform 1s ease-in-out;
+}
+
+.spin:hover
+{
+-moz-transform: rotate(360deg) !important;
+-webkit-transform: rotate(360deg) !important;
+-o-transform rotate(360deg) !important;
+transform: rotate(360deg) !important;
+}
+
+.smallspin:hover
+{
+animation: smallspin 1s;
+}
+
+.smallspin2
+{
+	animation: smallspin2 3s infinite;
+	position: relative;
+}
+
+@keyframes smallspin {
+    0%   {
+			transform: rotate(0deg) !important;
+		}
+		33%   {
+			transform: rotate(10deg) !important;
+		}
+    66%  {
+			transform: rotate(-10deg) !important;
+		}
+    100% {
+			transform: rotate(0deg) !important;
+		}
+}
+
+#movebf{
+		animation: bf 5s infinite
+}
+
+@keyframes bf {
+    0%   {
+			right: 0px
+		}
+    33% {
+			right: -200px
+		}
+		66%   {
+			right: 200px
+		}
+    100% {
+			right: 0px
+		}
+}
+
+@keyframes smallspin2 {
+    0%   {
+			transform: rotate(0deg) !important;
+		}
+		33%   {
+			transform: rotate(90deg) !important;
+		}
+    66%  {
+			transform: rotate(-90deg) !important;
+		}
+    100% {
+			transform: rotate(0deg) !important;
+		}
+}
+
+@font-face {
+    font-family: Stealingkissesinthemoonlight;
+    src: local(Stealingkissesinthemoonlight), url('../fonts/Stealingkissesinthemoonlight.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: WRS;
+    src: local(WRS), url('../fonts/WRS.ttf') format('opentype');
+}
 

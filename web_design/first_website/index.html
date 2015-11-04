@@ -1,1 +1,102 @@
 
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8"/>
+		<title>DW</title>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<script src="javascript/jquery-2.1.4.min.js"></script>
+		<link src="javascript/jquery-ani.min.js">
+    <script type="application/javascript">
+		function playPause() {
+			var myVideo = document.getElementById("video1");
+			myVideo.play()
+			myVideo.style.opacity = "1";
+			$('#introdiv').remove()
+			$('#bodydiv').remove()
+			$('.yis').remove()
+		}
+
+		function cena(){
+			var myVideo = document.getElementById("sound1");
+			sound1.play();
+		}
+
+		function colorSpam(){
+			setTimeout(function(){$('*').css('color', 'red');},1000)
+			setTimeout(function(){$('*').css('color', 'white');},2000)
+			setTimeout(function(){$('*').css('color', 'blue');},3000)
+			setTimeout(function(){$('*').css('color', 'green');},4000)
+			setTimeout(function(){$('*').css('color', 'yellow');},5000)
+			setTimeout(function(){$('*').css('color', 'pink');},6000)
+			setTimeout(function(){$('*').css('color', 'black');},7000)
+		}
+
+		setInterval(function(){
+			var date = new Date();
+			$('#date').text(date)
+		},1000)
+    </script>
+		<audio id="sound1" controls style="opacity:0">
+		  <source src="sounds/cena.mp3" type="audio/mp3">
+		</audio>
+	</head>
+	<body>
+		<div class="contanier">
+			<div id="introdiv" style="float:top; position:relative;"><p id="movebf" class="heading" style="position:relative">Web Design 1A</p></div>
+			<div id="bodydiv">
+				<h1 class="heading">Don's Website</h1>
+	      <h1 class="heading"> Hello! I hope you enjoy my website!</h1>
+				<p class="heading" id="date">Getting Date...</p>
+				<center><button class="spin" style="height:100px; width:100px; background:black; position:relative; color:white; cursor:pointer; border: 5px dashed white; border-radius: 15px" onclick="playPause();">Video: Click Me!</button></center>
+				<center><button class="spin" style="float: right; height:100px; width:100px; background:blue; position:relative; color:white; cursor:pointer; border: 5px outset white; border-radius: 15px; margin: 0px 30px 0px 0px" onclick="colorSpam();">^Click button above^ Color Spam!</button></center>
+				<center><button class="spin" style="float: left; height:100px; width:100px; background:purple; position:relative; color:white; cursor:pointer; border: 5px inset white; border-radius: 15px; margin: 0px 0px 0px 30px;" onclick="cena();">Name?</button></center>
+				<h1 class="heading smallspin">Here is a random image:</br><img src="images/maxresdefault.jpg" alt="NCS Picture" style="height:100%; width: 80%; border-radius: 50px"/></h1>
+				<p class="heading" id="movebf" style="position:relative;">Hello There...</p>
+			</div>
+		</div>
+		<div id="bodydiv" class="yis">
+			<h1 class="heading">Great Finish At The XC Race!</h1>
+			<h3 class="heading" style="font-size:25px">9/10/15</h1>
+			<h3 class="heading" style="font-size:15px">The race today was great with a close finish, but towards the end Pretend_Name_Is_Here won the race!</h1>
+			<center><img class="smallspin" style="height:50%; width:50%; margin: 10px; border-radius:25px" src="images/xc.jpg"></center>
+			<ul class="heading" style="list-style: square inside url(images/cat.gif);">
+				<li class="smallspin2">One.</li>
+				<li class="smallspin2">Two.</li>
+				<li class="smallspin2">Three.</li>
+			</ul>
+		</div>
+		<div id="bodydiv" class="yis">
+			<center>
+				<table style="color:red; border:1px solid black" class="heading" border="1">
+	          <thead>
+	            <h1 style="color:red">Table Of Nope</h1>
+	          </thead>
+	          <tr>
+	            <td>Nope.</td>
+	            <td>Nope.</td>
+	            <td>Nope.</td>
+	          </tr>
+	          <tr>
+	            <td>Nope.</td>
+	            <td>Nope.</td>
+	            <td>Nope.</td>
+	          </tr>
+	          <tr>
+	            <td>Nope.</td>
+	            <td>Nope.</td>
+	            <td>Nope.</td>
+	          </tr>
+	        </table>
+					<img src="images/retouch2.png"/>
+					<br>
+					<a href="two/index.html"><button class="btn-info" type="button" style="position:relative; margin: 5px"><span class="glyphicon glyphicon-off">2nd Page</span></button></a>
+					<a href="three/index.html"><button class="btn-info" type="button" style="position:relative; margin: 5px"><span class="glyphicon glyphicon-cloud">3rd Page</span></button></a>
+			</center>
+		</div>
+			<video id="video1" width="100%" height:"100%" style="opacity:0; float:bottom position: relative; top:500px">
+			<source src="video/4voo.mp4" type="video/mp4">
+		</video>
+	</body>
+</html>

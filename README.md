@@ -1,7 +1,7 @@
 <h1>School Programming</h1>
 <ul>
-  <li><a>Python</a></li>
-  <li><a>Web Design</a></li>
+  <li><a src="https://github.com/donvoo/school/tree/master/python">Python</a></li>
+  <li><a src="https://github.com/donvoo/school/tree/master/web_design" >Web Design</a></li>
 </ul>
 
 <h1>Python Files</h1>

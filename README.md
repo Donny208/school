@@ -12,7 +12,7 @@
 
 <h1>Web Design Folders</h1>
 <ul>
-  <li><a href="" target="_blank">First Website</a></li>
-  <li><a href="" target="_blank">October Website</a></li>
-  <li><a href="" target="_blank">November Website</a></li>
+  <li><a href="https://github.com/donvoo/school/tree/master/web_design/first_website" target="_blank">First Website</a></li>
+  <li><a href="https://github.com/donvoo/school/tree/master/web_design/DonOct" target="_blank">October Website</a></li>
+  <li><a href="https://github.com/donvoo/school/tree/master/web_design/DonNov" target="_blank">November Website</a></li>
 </ul>

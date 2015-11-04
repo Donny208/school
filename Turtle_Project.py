@@ -40,10 +40,6 @@ def circle():
     triangle()
 square()
 
-def start():
-    shape = int(input('How Many Sides Do You Want?> '))
-    length = int(input('Line Distance?> '))
-    shapeDraw()
 
 
     

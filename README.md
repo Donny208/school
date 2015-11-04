@@ -2,7 +2,7 @@
 <ul>
   <li><a>Python</a></li>
   <li><a>Web Design</a></li>
-<ul>
+</ul>
 
 <h1>Python Files</h1>
 <ul>

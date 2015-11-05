@@ -24,7 +24,7 @@
   <li><a href="https://github.com/donvoo/school/blob/master/python/Turtle_Project_01.py" target="_blank">Turtle Project 1</a> | Creating Square, Circle, Then Triangle</li>
 </ul>
 
-<h1>SQL</h1>
+<h1>SQL Files</h1>
 <p>Nothing Here Yet!</p>
 
 <h1>Web Design Folders</h1>

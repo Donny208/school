@@ -1,5 +1,6 @@
 <h1>School Programming</h1>
 <ul>
+  <li><a href="https://github.com/donvoo/school/tree/master/arduino" target="_blank">Arduino</a></li>
   <li><a href="" target="_blank">Java</a></li>
   <li><a href="" target="_blank">PHP</a></li>
   <li><a href="https://github.com/donvoo/school/tree/master/python" target="_blank">Python</a></li>
@@ -9,7 +10,7 @@
 
 <h1>Arduino</h1>
 <ul>
-  <li><a href="https://github.com/donvoo/school/blob/master/arduino/Bank.ino" target="_blank">Bank</a> | Program To Make LEDs Flash And Tone To Cut In Half From Delay</li>
+  <li><a href="https://github.com/donvoo/school/blob/master/arduino/LED_And_Tone.ino" target="_blank">LED And Tone</a> | Program To Make LEDs Flash And Tone To Cut In Half From Delay</li>
 </ul>
 
 <h1>Java Files</h1>

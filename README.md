@@ -15,7 +15,8 @@
 
 <h1>Java Files</h1>
 <ul>
-  <li><a href="https://github.com/donvoo/school/blob/master/java/start.java" target="_blank">First Java Script</a> |   Title Says All</li>
+  <li><a href="https://github.com/donvoo/school/blob/master/java/start.java" target="_blank">First</a> |   First Script</li>
+  <li><a href="https://github.com/donvoo/school/blob/master/java/add.java" target="_blank">Add</a> |   Simple Adding</li>
 </ul>
 
 <h1>PHP Files</h1>

@@ -136,9 +136,9 @@ def setClock():
     hour = int(time.strftime("%H"))%12
     minute = time.strftime("%M")
     sec = time.strftime("%S")
-    print('Hour:',hourA[str(hour)])
-    print('Minute:',minuteA[str(minute)])
-    print('Second:',minuteA[str(sec)])
+    #print('Hour:',hourA[str(hour)])
+    #print('Minute:',minuteA[str(minute)])
+    #print('Second:',minuteA[str(sec)])
 
     tsec.clear()
     tsec.home()
@@ -157,11 +157,10 @@ def setClock():
 
 for x in range(12):
     t.color(color[x-1])
-    print(x*30)
+    #print(x*30)
     clock(30*x,300)
 setClock()
 
 
 while True:
-    time.sleep(1)
     setClock()

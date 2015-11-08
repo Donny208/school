@@ -22,7 +22,8 @@ hourA = {
     '7': '240',
     '6': '270',
     '5': '300',
-    '4': '330'
+    '4': '330',
+    '0': '90'
 }
 
 minuteA = {
@@ -136,9 +137,11 @@ def setClock():
     hour = int(time.strftime("%H"))%12
     minute = time.strftime("%M")
     sec = time.strftime("%S")
-    #print('Hour:',hourA[str(hour)])
-    #print('Minute:',minuteA[str(minute)])
-    #print('Second:',minuteA[str(sec)])
+    '''
+    print('Hour:',hourA[str(hour)])
+    print('Minute:',minuteA[str(minute)])
+    print('Second:',minuteA[str(sec)])
+    '''
 
     tsec.clear()
     tsec.home()
@@ -152,7 +155,7 @@ def setClock():
 
     thour.clear()
     thour.home()
-    thour.left(int(hourA[str(hour)])-(int(minute)*0.5))
+    thour.left(int(hourA[str(hour)])-int(minute)*0.5)
     thour.stamp()
 
 for x in range(12):

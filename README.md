@@ -29,6 +29,7 @@
   <li><a href="https://github.com/donvoo/school/blob/master/python/Counclers.py" target="_blank">Counclers Project</a> | Picking A Councler For Student Based On Age, Grade, And Gender</li>
   <li><a href="https://github.com/donvoo/school/blob/master/python/Pong.py" target="_blank">Pong</a> | Pong Created By Using Pygame Module</li>
   <li><a href="https://github.com/donvoo/school/blob/master/python/RPS.py" target="_blank">Rock, Paper, Scissors</a> | Rock, Paper, Scissors Against Computer</li>
+  <li><a href="https://github.com/donvoo/school/blob/master/python/SEV.py" target="_blank">Strings, Embedded Values</a> | Embedding Values From Strnigs</li>
   <li><a href="https://github.com/donvoo/school/blob/master/python/Tkinter_Project_01.py" target="_blank">Tkinter Project 1</a> | Creating Rows And Columns</li>
   <li><a href="https://github.com/donvoo/school/blob/master/python/Turtle_Clock.py" target="_blank">Turtle Clock</a> | Creating A Working Clock From Turtles</li>
   <li><a href="https://github.com/donvoo/school/blob/master/python/Turtle_Multiple.py" target="_blank">Turtle Multiples</a> | Creating Multiples From Turtle</li>

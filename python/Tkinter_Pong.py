@@ -7,11 +7,13 @@ Donovan Wright
 from tkinter import *
 import random
 import time
+import os
+
 class Ball:
  def __init__(self, canvas, paddle, color):
   self.canvas = canvas
   self.paddle = paddle
-  self.id = canvas.create_oval(10, 10, 25, 25, fill=color)
+  self.id = canvas.create_oval(10, 25, 60, 60, fill=color)
   self.canvas.move(self.id, 245, 100)
   starts = [-3, -2, -1, 1, 2, 3]
   random.shuffle(starts)
@@ -34,10 +36,21 @@ class Ball:
   pos = self.canvas.coords(self.id)
   if pos[1] <= 0:
    self.y = 3
+   #print('Top hit')
   if pos[3] >= self.canvas_height:
    self.hit_bottom = True
+   global score
+   time.sleep(1)
+   self.x= -10
+   self.y = -10
+   self.hit_bottom = False
+   score = 0
+   print('Score:',score)
   if self.hit_paddle(pos) == True:
    self.y = -3
+   global score
+   score += 1
+   print('Score:',score)
   if pos[0] <= 0:
    self.x = 3
   if pos[2] >= self.canvas_width:
@@ -60,7 +73,6 @@ class Paddle:
    self.x = 0
   elif pos[2] >= self.canvas_width:
    self.x = 0
-
  def turn_left(self, evt):
   self.x = -2
  def turn_right(self, evt):
@@ -75,7 +87,10 @@ canvas = Canvas(tk, width=500, height=400, bd=0, highlightthickness=0)
 canvas.pack()
 tk.update()
 paddle = Paddle(canvas, 'blue')
-ball = Ball(canvas, paddle, 'red')
+ball = Ball(canvas, paddle, 'lightblue')
+score = 0
+os.system("/home/compsci/Donovan/cena.mp3")
+
 while 1:
  if ball.hit_bottom == False:
   ball.draw()

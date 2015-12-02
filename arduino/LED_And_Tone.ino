@@ -1,21 +1,18 @@
 int x = 1000;
-
+int y = 100;
 
 void setup() {
-  // initialize digital pin 13 as an output.
-  pinMode(13, OUTPUT);
-  pinMode(12, OUTPUT);
-  pinMode(9, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(8, OUTPUT);
 }
 
 void loop() {
-  tone(9,1000,10);
-  digitalWrite(13, HIGH);  
-  digitalWrite(12, LOW);  
-  delay(100);
-  noTone(9);              
-  digitalWrite(13, LOW);
-  digitalWrite(12, HIGH);
+  tone(8,y);
+  digitalWrite(7, HIGH);  
+  delay(x);
+  noTone(8);
+  digitalWrite(7, LOW);
   delay(x);
   x = x / 1.1;  
+  y = y + 100;
 }
